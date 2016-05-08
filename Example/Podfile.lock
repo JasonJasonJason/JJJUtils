@@ -1,0 +1,14 @@
+PODS:
+  - JJJUtils (0.1.0)
+
+DEPENDENCIES:
+  - JJJUtils (from `../`)
+
+EXTERNAL SOURCES:
+  JJJUtils:
+    :path: ../
+
+SPEC CHECKSUMS:
+  JJJUtils: 475bcc8395124d37089681ab6c9079e28af0924d
+
+COCOAPODS: 0.39.0
