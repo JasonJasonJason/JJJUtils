@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '59DF07C9E0C284708B5E7E91'
+               BlueprintIdentifier = '7AD9958A92DA4CED33CCC788'
                BlueprintName = 'JJJUtils'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'JJJUtils.framework'>

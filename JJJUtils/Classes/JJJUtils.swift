@@ -25,4 +25,17 @@ public class JJJUtils {
         
     }
     
+    /// Sort a collection in a random format, effectively shuffling them.
+    /// Example usage:
+    /// ```
+    /// let nums = [1, 2, 3]
+    /// let shuffledNums = JJJUtils.randomSort(nums)
+    /// // [2, 1, 3]
+    /// ```
+    public static func randomSort<T>(collection: [T]) -> [T] {
+        
+        return collection.sort() {_, _ in arc4random() % 2 == 0}
+        
+    }
+    
 }
