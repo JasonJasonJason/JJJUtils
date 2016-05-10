@@ -13,10 +13,6 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        let jason = [1, 2, 3]
-        let jason2 = JJJUtils.randomSort(jason)
-    
     }
 
 }
