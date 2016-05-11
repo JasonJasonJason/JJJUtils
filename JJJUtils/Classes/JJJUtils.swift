@@ -25,6 +25,7 @@ public class JJJUtils {
         
     }
     
+    
     /// Sort a collection in a random format, effectively shuffling them.
     /// Example usage:
     /// ```
@@ -38,6 +39,21 @@ public class JJJUtils {
         
     }
     
+    
+    /// Load a UIImage from a test class. This is tricky because `UIImage(named: "img.png")` under specific bundle configurations.
+    /// Example usage:
+    /// ```
+    /// let image = JJJUtils.loadImageForTest(self.dynamicType, imageName: "img.png")
+    /// ```
+    public static func loadImageForTest(testClass: AnyClass, imageName: String) -> UIImage? {
+        
+        return UIImage(
+            named: imageName,
+            inBundle: NSBundle(forClass: testClass),
+            compatibleWithTraitCollection: nil
+        )
+        
+    }
     
     
 }
